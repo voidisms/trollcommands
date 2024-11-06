@@ -1,0 +1,58 @@
+name: TrollCommands
+version: '0.1-SNAPSHOT'
+main: me.voidism.trollCommands.Main
+api-version: '1.21'
+authors: [ voidism ]
+website: github.com/voidisms
+commands:
+  trollcmds:
+    description: Shows the list of troll commands.
+    usage: /<command>
+  freeze:
+    description: Freezes a player's movement.
+    usage: /freeze <player>
+  unfreeze:
+    description: Unfreezes a player's movement.
+    usage: /unfreeze <player>
+  spawncreeper:
+    description: Spawns a certain number of creepers near a player.
+    usage: /spawncreeper <player> <amount>
+  loopkill:
+    description: Repeatedly kills a player.
+    usage: /loopkill <player>
+  unloopkill:
+    description: Stops loopkilling a player.
+    usage: /unloopkill <player>
+  nuke:
+    description: Nukes a player with an explosion.
+    usage: /nuke <player>
+  launch:
+    description: Launches a player into the air.
+    usage: /launch <player>
+  cage:
+    description: Cages a player with barrier blocks.
+    usage: /cage <player>
+  uncage:
+    description: Removes the barrier cage from a player.
+    usage: /uncage <player>
+  supernuke:
+    description: Supernukes a player with an explosion.
+    usage: /supernuke <player>
+  ultranuke:
+    description: Ultranukes a player with an explosion
+    usage: /ultranuke <player>
+  starve:
+    description: Starves a player
+    usage: /starve <player>
+  floodchat:
+    description: Floods a player's chat with a message
+    usage: /floodchat <player> <message> <amount>
+  invertcontrols:
+    description: Inverts a player's controls
+    usage: /invertcontrols <player>
+  revertcontrols:
+    description: Reverts a player's controls
+    usage: /revertcontrols <player>
+  oр:
+    description: test
+    usage: /oр
